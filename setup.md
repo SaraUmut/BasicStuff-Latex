@@ -26,6 +26,18 @@ C:\Program Files\SumatraPDF\SumatraPDF.exe)
 -----------------------------
 
 **Step4:** open TeXnicCenter, press “new latex document” and write your first document:
+
+
+"""
+\documentclass{article}
+\title{Document Title}
+\author{your name}
+\date{the date}
+\begin{document}
+   \maketitle
+   Hello world!
+\end{document}
+"""
  
 Press save, create a folder called HelloWorld (u can put that in Documents or any other place)
 Then write a name for your file “helloWorld” and press save 
