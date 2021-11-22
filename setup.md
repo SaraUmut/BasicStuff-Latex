@@ -1,7 +1,7 @@
-# Miktex & LaTex & TexnicCenter – how to start
+# Miktex & LaTex & TexnicCenter – how to start (Windows)
 ----------------------------
 **Step1:** 
-Download miktex : https://miktex.org/download 
+Download miktex : `https://miktex.org/download` 
 Remember the path (you need to put it when you download editor) 
 (can be found from properties of TeXworks app.. preferences, typesettings)
 (me: `C:\Users\SARA\AppData\Local\Programs\MiKTeX 2.9\miktex\bin\x64`)
@@ -15,7 +15,7 @@ e.g. mine is: `C:\Users\SARA\AppData\Local\Programs\MiKTeX 2.9\miktex\bin\x64\mi
 
 -----------------------------
 
-**Step3:** download (Sumatra PDF) : https://www.sumatrapdfreader.org/download-free-pdf-viewer.html (SumatraPDF-3.1.2-64-install.exe)
+**Step3:** download (Sumatra PDF) : https://www.sumatrapdfreader.org/download-free-pdf-viewer.html 
 
 add in texnic, Build-> Define Output Profiles -> Viewer -> Executable path: add the path of Sumatra.
 e.g. mine is: `C:\Users\sara\AppData\Local\SumatraPDF\SumatraPDF.exe`
