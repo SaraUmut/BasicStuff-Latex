@@ -4,28 +4,25 @@
 Download miktex : https://miktex.org/download 
 Remember the path (you need to put it when you download editor) 
 (can be found from properties of TeXworks app.. preferences, typesettings)
-(me: C:\Users\SARA\AppData\Local\Programs\MiKTeX 2.9\miktex\bin\x64)
+(me: `C:\Users\SARA\AppData\Local\Programs\MiKTeX 2.9\miktex\bin\x64`)
 
 -----------------------------
 
 **Step2:** download  editor (Texnic center): http://www.texniccenter.org/download/ 
 Then when it opens it ask for prev path of miktex
 Then it ask for Postscript-viewer:
-"C:\Users\saram\AppData\Local\Programs\MiKTeX 2.9\miktex\bin\x64\miktex-texworks.exe"
-C:\Users\SARA\AppData\Local\Programs\MiKTeX 2.9\miktex\bin\x64\miktex-texworks.exe
+`C:\Users\SARA\AppData\Local\Programs\MiKTeX 2.9\miktex\bin\x64\miktex-texworks.exe`
 
 -----------------------------
 
 **Step3:** download (Sumatra PDF) : https://www.sumatrapdfreader.org/download-free-pdf-viewer.html (SumatraPDF-3.1.2-64-install.exe)
-C:\Program Files\SumatraPDF\SumatraPDF.exe
 
-(in texnic setting:
-C:\Program Files (x86)\Adobe\Acrobat Reader DC\Reader\AcroRd32.exe
-C:\Program Files\SumatraPDF\SumatraPDF.exe)
+add in texnic, Build-> Define Output Profiles -> Viewer -> Executable path: ther path of Sumatra
+me: `C:\Users\sara\AppData\Local\SumatraPDF\SumatraPDF.exe`
 
 -----------------------------
 
-**Step4:** open TeXnicCenter, press “new latex document” and write your first document:
+**Step4:** open TeXnicCenter, `File->new-> file` and write your first document:
 
 
 ```
@@ -39,7 +36,7 @@ C:\Program Files\SumatraPDF\SumatraPDF.exe)
 \end{document}
 ```
  
-Press save, create a folder called HelloWorld (u can put that in Documents or any other place)
+Press save, create a folder called HelloWorld (you can put that in Documents or any other place)
 Then write a name for your file “helloWorld” and press save 
 Make the output profile: “LaTex  PDF”
 Then press “build current file” it should give you 0 errors and 1 page
