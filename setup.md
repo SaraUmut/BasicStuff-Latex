@@ -11,14 +11,14 @@ Remember the path (you need to put it when you download editor)
 **Step2:** download  editor (Texnic center): http://www.texniccenter.org/download/ 
 Then when it opens it ask for prev path of miktex
 Then it ask for Postscript-viewer:
-`C:\Users\SARA\AppData\Local\Programs\MiKTeX 2.9\miktex\bin\x64\miktex-texworks.exe`
+e.g. mine is: `C:\Users\SARA\AppData\Local\Programs\MiKTeX 2.9\miktex\bin\x64\miktex-texworks.exe`
 
 -----------------------------
 
 **Step3:** download (Sumatra PDF) : https://www.sumatrapdfreader.org/download-free-pdf-viewer.html (SumatraPDF-3.1.2-64-install.exe)
 
-add in texnic, Build-> Define Output Profiles -> Viewer -> Executable path: ther path of Sumatra
-me: `C:\Users\sara\AppData\Local\SumatraPDF\SumatraPDF.exe`
+add in texnic, Build-> Define Output Profiles -> Viewer -> Executable path: add the path of Sumatra.
+e.g. mine is: `C:\Users\sara\AppData\Local\SumatraPDF\SumatraPDF.exe`
 
 -----------------------------
 
