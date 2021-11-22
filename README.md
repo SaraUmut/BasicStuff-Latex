@@ -1,3 +1,3 @@
 # BasicStuff-Latex
 
-Some useful information about jpw to install and work with LaTex
+Some useful information about how to install and work with LaTex
